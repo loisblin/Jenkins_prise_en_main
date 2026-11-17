@@ -1,0 +1,8 @@
+name: jenkins_demo
+
+services:
+  web:
+    build: .
+
+    ports:
+      - "8081:80"
