@@ -6,3 +6,9 @@ services:
 
     ports:
       - "8081:80"
+  
+  java:
+    build:
+      context: demo-jenkins/demo-jenkins
+      
+      
